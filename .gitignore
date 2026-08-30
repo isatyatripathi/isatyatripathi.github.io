@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+.env*
+!.env.example
+coverage/
+
+# Local visual QA artifacts (not required for production)
+preview/
+qa/
+design-qa.md
+scripts/capture_preview.py
+scripts/process_portrait.py
+scripts/render-preview.cjs
+public/images/satya-portrait.png
+public/images/satya-portrait-preview.png
+
+*.tsbuildinfo

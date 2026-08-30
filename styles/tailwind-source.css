@@ -1,0 +1,9 @@
+@theme {
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --color-brand-50: #fbf4ff;
+  --color-brand-500: #bd43ff;
+  --color-brand-600: #9f2edc;
+  --color-ink-950: #070d1c;
+}
+
+@tailwind utilities;

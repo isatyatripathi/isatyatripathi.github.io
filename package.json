@@ -1,0 +1,36 @@
+{
+  "name": "satya-tripathi-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recruiter-focused portfolio for Satya Tripathi, built with Next.js, React, TypeScript, and Tailwind CSS.",
+  "scripts": {
+    "dev": "npm run build:css && next dev",
+    "build:css": "node scripts/build-tailwind.mjs",
+    "build": "npm run build:css && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "check:syntax": "node scripts/check-syntax.mjs",
+    "check": "npm run build:css && npm run check:syntax && npm test && npm run typecheck && npm run lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "eslint": "9.25.1",
+    "eslint-config-next": "16.3.3",
+    "prettier": "3.5.3",
+    "tailwindcss": "4.1.10",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
