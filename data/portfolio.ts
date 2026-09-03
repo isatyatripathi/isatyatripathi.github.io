@@ -349,6 +349,7 @@ export const portfolio: Portfolio = {
   publication: {
     title: "Study on Secured Framework for Cloud-Based Online Banking",
     publisher: "IEEE publication",
+    link: "https://ieeexplore.ieee.org/document/8229915"
   },
   resume: {
     path: "/resume/Satya-Tripathi-Resume.pdf",
