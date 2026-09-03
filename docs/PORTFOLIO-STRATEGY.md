@@ -5,7 +5,7 @@
 The portfolio is designed for recruiters, hiring managers, engineering leaders,
 technical interviewers, and professional peers. Its first-screen job is to make
 Satya's seniority, architecture depth, people-leadership scope, and measurable
-engineering impact understandable in about 30 seconds.
+engineering impact are understandable in about 30 seconds.
 
 ## Positioning
 
