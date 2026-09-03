@@ -342,6 +342,7 @@ export const portfolio: Portfolio = {
   certifications: [
     "Microsoft Certified: Azure Developer Associate (AZ-204)",
     "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    "Harvard ManageMentor Leading with Generative AI",
     "Infosys Certified Agile Developer",
     "Public & Hybrid IaaS Cloud with OpenStack",
   ],
